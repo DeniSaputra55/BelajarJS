@@ -1,0 +1,2 @@
+tipe data yang berisikan kumpulam kosong atau lebih karakter
+tipe string perli menggunakan "(petik dua) atau ' (petik satu) sebelum dan setelah isi textnya.

@@ -1,0 +1,29 @@
+Operator matematika
+- Javascript mendukung banyak sekali Operator matematika untuk tipe data number sepert:
+1. Operator aritmatika
+2. Operator Augmented Assigments
+3. Operator Unary
+
+Operator aritmatika :
++ = pertambahan
+- = pengurangan
+* = perkalian
+** = exponesial
+/ = pembagian
+% = modulus (sisa bagi).
+
+Operator Augmented Assigments :
+ Operator matematika        Operator Augmented Assigments
+ result = result + 10       result += 10
+ result = result - 10       result -= 10
+ result = result * 10       result *= 10
+ result = result / 10       result /= 10
+ result = result % 10       result %= 10
+ result = result **10       result **= 10
+
+ Operator Unary
+Operator    Keterangan
++           Menandakan nilai positif
+-           Menandakan nilai negatif
+++          Increment, menaikan 1 angka
+--          Decrement, menurunkan 1 angka

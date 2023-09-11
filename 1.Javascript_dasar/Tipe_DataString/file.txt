@@ -1,2 +1,11 @@
 tipe data yang berisikan kumpulam kosong atau lebih karakter
 tipe string perli menggunakan "(petik dua) atau ' (petik satu) sebelum dan setelah isi textnya.
+escape sequnece :
+javascript mendukung escape sequnece distring, merupakan karakter khusus,
+seperti ENTER,TAB, " (kutip dua).
+contoh :
+ \n = ENTER
+ \t = TAB
+ \" = "
+ \' = '
+ \\ = \

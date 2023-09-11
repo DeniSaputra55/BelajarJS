@@ -1,0 +1,27 @@
+Operator Logika
+- Operator Logika adalah Operator untuk dua buah data boolean
+- hasil dari Operator logika adalah boolean lagi
+
+Operator        Keterangan
+&&              Dan
+||              Atau
+!               Negasi/kebalikan
+
+Operator &&
+Nilai 1     Operator        Nilai 2     hasil
+true       &&             true          true
+true       &&             false         false
+false      &&             true          false
+false      &&             false         false
+
+Operator ||
+Nilai 1     Operator        Nilai 2     hasil
+true        ||              true        true
+true        ||              false       true
+false       ||              true        true
+false       ||              false       false
+
+Operator Unary
+     Operator        Nilai 2     hasil
+    !              true        false
+    !              false       true

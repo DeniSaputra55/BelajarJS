@@ -1,0 +1,14 @@
+console
+- javascript memiliki fitur untuk melakukan logging bernama console
+- logging adalah mekanisme yang biasa dilakukan oleh programmer untuk menampilkan informasi
+  dari aplikasi yang sedang berjalan, tanpa harus mengganggu alur kerja aplikasi dan juga interaksi user
+- untuk melakukan ini, kita bisa menggunakan fitur console dijavascript
+- untuk menggunakan console,kita cukup gunakan perintah console dikode javascript
+
+console method
+console method       Keterangan
+console.info(...)    memberitahu informasi
+console.warm(...)    memberitahu informasi peringatan
+console.error(...)   memberitahu informasi error
+console.table(...)   memberitahu informasi dalam bentuk table
+

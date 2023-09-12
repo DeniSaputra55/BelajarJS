@@ -1,0 +1,22 @@
+Konversi String dan Number
+- saat membuat aplikais, kadang kita input dari pengguna selalu dalam bentuk string
+- sedangkan jika ingin mengelola datanya dalam bentuk Number
+- maka sangat disarankan untuk melakukan konversi tipe data.
+
+melakukan konversi string dan Number
+function                keterangan
+parseInt(string)        Mengkonversi dari string ke number (bilangan bulat)
+parseFloat(string)      mengkonversi dari string ke number(bilangan pecahan)
+Number(string)          Mengkonversi dari string ke number(bilangan bulat atau pecahan)
+number.tostring()      mengkonversi dari number ke string
+
+NaN
+- bagaimana jika ternyata data string yang kita coba konversi ke number bukanlah data yang valid ?
+- jika data string yang kita coba lakukan konversi bukan lah data valid, maka hasil dari konversi tersebut adalah NaN (Not a Number)
+- NaN adalah number spesial yang menyebutkan bahwa ini bukanlah number
+- jika NaN dioperasikan dengan data number lainnya, maka hasilnya akan menjadi NaN lagi
+
+isNaN() function
+- Kadang kita ingin mengecek apakah sebuah number itu NaN atau bukan
+- Untuk melakukan pengecekan tersebut,bisa menggunakan function isNaN(number)
+- hasil nya adalah berupa data boolean, true jika NaN, false jika bukan

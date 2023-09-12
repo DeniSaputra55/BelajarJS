@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi string number</title>
+</head>
+<body>
+    <script>
+        //kode masalah tanpa konversi
+        // const value1 = "1";
+        // const value2 = 1;
+        // const sum = value1 + value2; //hasilnya 11
+
+        // document.writeln(`<p>${sum}</p>`)
+
+        //melakukan konversi string dan Number
+        const value1 = parseInt("1");
+        const value2 = 1;
+        const sum = value1 + value2; //hasilnya 2
+
+        document.writeln(`<p>${sum}</p>`);
+
+        document.writeln(`<p>${parseInt("1.1")}</p>`)
+        document.writeln(`<p>${parseFloat("1.1")}</p>`)
+        document.writeln(`<p>${Number("1.1")}</p>`)
+
+        //konversi number ke string
+        const a = 1;
+        const b = 1;
+        const total = a.toString() + b.toString();
+        document.writeln(`<p>${total}</p>`);
+
+        //kode NaN
+        document.writeln(`<p>${parseInt("salah")}</p>`)
+        document.writeln(`<p>${parseFloat("1.1eko")}</p>`)
+
+        document.writeln(`<p>${Number("salah")}</p>`) //output NaN
+        document.writeln(`<p>${Number("1.1eko")}</p>`) //output NaN
+
+        const first = Number("salah"); //NaN
+        const totalNumber = first + 100;
+        document.writeln(`<p>${totalNumber}</p>`);
+
+        //kode isNaN()function
+        document.writeln(`<p>${isNaN(first)}</p>`); //true
+        document.writeln(`<p>${isNaN(100)}</p>`); //false
+    </script>
+</body>
+</html>

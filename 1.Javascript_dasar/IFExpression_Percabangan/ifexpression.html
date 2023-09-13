@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF Expression</title>
+</head>
+<body>
+    <script>
+        //kode if expression
+        const examValue = 90;
+        if (examValue > 80) {
+            document.writeln("<p>Good Job</p>"); //bernilai true
+        }
+        const examValue1 = 70;
+        if (examValue1 > 80) {
+            document.writeln("<p>Selamat berjuang kembali</p>"); //bernilai false, tidak akan di eksekusi
+        }
+
+        //else expression
+        const examValue2 = 90; 
+        if(examValue2 > 80) {
+            document.writeln("<p>Good Job</p>"); //bernilai true
+        } else {
+            document.writeln("<p>Coba Lagi</p>");
+        }
+
+        const examValue3 = 60; 
+        if(examValue3 > 80) {
+            document.writeln("<p>Good Job</p>");
+        } else {
+            document.writeln("<p>Coba Lagi</p>"); //bernilai false
+        }
+
+        //else if expression
+        const examValue4 = 75;
+        if (examValue4 > 80) {
+            document.write("Good job : Nilai A");//bernilai true
+        } else if (examValue4 > 70) {
+            document.writeln("Good job : Nilai B");
+        } else if (examValue4 > 60) {
+            document.writeln("<p>Not Bad</p>");
+        } else {
+            document.writeln("<p>Try Again</p>") ;
+        }
+
+        const examValue5 = 60;
+        if (examValue5 > 80) {
+            document.write("Good job");
+        } else if (examValue5 > 60) {
+            document.writeln("<p>Not Bad</p>");
+        } else {
+            document.writeln("<p>Try Again</p>") ; //bernilai false, tidak terpenuhi
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+null
+- merupakan represntasu data kosong
+- null berbeda dengan undefined , null berarti variable sudah ditambahkan valuenya hanya saja valuenya null
+- sedangakan undefined adalah variable belum ditambahkan value apapun.

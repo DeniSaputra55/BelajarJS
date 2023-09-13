@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undefined</title>
+</head>
+<body>
+    <script>
+        //undefined variable
+        let name ;
+        if (name === undefined) {
+            console.info("UNDEFINED");
+        } else {
+            console.info("DEFINED");
+        }
+
+        //undefined array value
+        const names = ["Deni", "saputra"];
+        if (names[2] === undefined) {
+            console.info("Array Undefined");
+        } else {
+            console.info(`Array defined ${names[2]}`);
+        }
+
+        //undefine object property ( saat mengakses property tpi tidak ada)
+        let person = {};
+        if (person.name === undefined) {
+            console.info("Object  Undefined");
+        } else {
+            console.info(`Hello ${person.name}`);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+undefined
+- adalah sebuah kata kunci di javascript
+- adalah sebuah tipe data
+- sebuah variable yang belum ditambahkan nilai, maka artinya variable tersebut merupakan tipe undefined
+- kadang untuk programmer javascript pemula undefined ini memang agak sedikit membingungkan
+- undefined itu berbeda dengan null dibahasa pemrograman lain

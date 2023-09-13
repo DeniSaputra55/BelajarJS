@@ -1,0 +1,14 @@
+Tipe data object
+Associative array
+- dibahasa pemograman lain seperti PHP, bisa menggunakan index berubah tipe data lain selain
+number misalnya string
+- fitur ini biasanya disebut Associative array atu hash
+- javascript Associative array tidak didukung
+- jika kita memaksa memasukkan data bukan number diindex array, maka javascript akan merubah
+tipe data array tersebut menjadi object, dan ini bisa berbahaya karena beberapa operasi diarray 
+mungkin bisa berubah hasilnya
+
+Tipe Data object
+- tipe data object adalah tipe data yang mirip dengan tipe data array
+- yang membedakan adalah index pada tipe data object bisa menggunakan string
+- index di object biasanya disebut attributes atau properties, bukan index

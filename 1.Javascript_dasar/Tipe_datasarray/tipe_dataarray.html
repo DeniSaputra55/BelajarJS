@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipe Data Array</title>
+</head>
+<body>
+    <script>
+        //membuat array
+        let arrayKosong = [];
+        let arrayNama =["Denis", "Saputra", "Putra"];
+
+        //menambah array
+
+        const names = [];
+        names.push("deni");
+        names.push("Saputra", "Putra");
+        names.push("Budi", "Joko", "Rudi");
+
+        console.table(names);
+
+        //operasi di array
+        // const names1 = [];
+        // names1.push("Denis");
+        // names1.push("Denis", "Saputra");
+
+        // console.table(names1);
+        // names1[0] = "Deni";
+
+        // console.table(names1);
+         delete names[2]; //mengahapus array ke 2
+        console.table(names);
+        names.push("denis lagi");
+        console.table(names);
+
+        names[3] = "Diubah lagi";
+        names.push(1,2,3,4,5);
+
+        console.table(names);
+    </script>
+</body>
+</html>

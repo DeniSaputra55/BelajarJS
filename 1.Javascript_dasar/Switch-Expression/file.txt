@@ -1,0 +1,4 @@
+Switch statement
+- kadang kita hanya butuh mengguanakan kondisi sederhana di if statement, seperti hanya mengguanakan perbandingan ===
+- switch adalah statement percabangan yang sama dengan if, namun lebih sederhana cara pembuatannya.
+- kondisi di switch statement hanya untuk perbandingan ==

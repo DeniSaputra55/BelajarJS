@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nulish Coalescing Operator</title>
+</head>
+<body>
+    <script>
+        //  Tanpa NULISH COALESCING OPERATOR
+        let parameter = "Denis";
+        let data = parameter;
+        if(data == undefined || data == null){
+            data = " Nilai Default";
+        }
+        document.writeln(`<p>${data}</p>`);
+
+        //nulish coalescing operator
+        data = parameter ?? "Nilai Default";
+        document.writeln(`<p>${data}</p>`);
+    </script>
+</body>
+</html>

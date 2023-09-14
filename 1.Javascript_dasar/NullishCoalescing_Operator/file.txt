@@ -1,0 +1,5 @@
+Nullish Coalescing Operator
+- Nullish value adalah null dan underfined
+- nullish Coalescing Operator (??) adalah Operator mirip dengan ternary Operator, yang membedakan
+adalah pada kondisi, jika bernilai null atau underfined baru value default nya diambil
+

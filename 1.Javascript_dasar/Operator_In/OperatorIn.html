@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator In</title>
+</head>
+<body>
+    <script>
+        // In Operator
+        const person = {
+            firstName: "Denis",
+            lastName: "Saputra"
+        };
+
+        if ("firstName" in person) {
+            alert(`Hello ${person.firstName}`);
+        } else {
+            alert("Hello");
+        }
+
+        //In Operator undefined / null property
+        const student = {
+            firstName: "Denis",
+            middleName: undefined,
+            lastName: "Putra"
+        }
+        if ("middleName" in student){
+            alert(`hello ${student.middleName}`);
+        } else {
+            alert("Hello student");
+        }
+
+        const names = [null, "Saputra", null];
+        const result = 0 in names;
+        document.writeln(`<p>${result}</p>`);
+    </script>
+</body>
+</html>

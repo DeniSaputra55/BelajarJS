@@ -1,0 +1,16 @@
+Operator typeof
+- typeof merupakan operator yang bisa kita gunakan untuk melihat tipe data sebuah value atau variable
+- karena javascript merupakan dynamic langeuange jadi kadang kita perlu mengecek tipe data sebuah value atau variable menggunakan operator typeof
+- hasil dari operator typeof adalah string tipe datanya
+
+type                hasil operator typeof
+undefined           "undefined"
+null                "object"
+boolean             "boolean"
+number              "number"
+string              "string"
+symbol (ES6)        "symbol"
+bigint(es10)        "bigint"
+function            "function"
+array               "object"
+object              "object"

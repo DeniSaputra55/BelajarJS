@@ -1,0 +1,7 @@
+Label
+- label merupakan penanda yang bisa digunakan dengan kata kunci break dan continue
+- secara default saat kita melakukan break atau continue dia akan melakukan terhadap perulangan
+dimana kode break dan continue itu digunakan
+- dengan menggunakan label kita bisa melakukan break dan continue terhadap perulangan yang 
+kita inginkan asalkan pada perulanganny kita gunakan label
+- untuk membuat label kita bisa gunakan nama label lalu diikuti dengan : (titi dua)

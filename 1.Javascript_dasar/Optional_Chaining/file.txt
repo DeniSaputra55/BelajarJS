@@ -1,0 +1,5 @@
+Optional chaining
+- optional chaining operator(?) merupakan operator yang digunakan untuk mengamankan ketika
+kita ingin mengakses property sebuah object dari data nullish
+- jika kita mencoba mengakses property dari sebuah object dari data nulish Tanpa menggunakan
+optional chaining operator, maka akan terjadi error

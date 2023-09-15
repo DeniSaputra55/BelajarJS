@@ -1,0 +1,5 @@
+Break & Continue
+- Pada switch statement, kita sudah mengenal kata kunci break yaitu untuk menghentikan case dalam switch
+- sama dengan pada perulangan break juga digunakan untuk menghentikan seluruh perulangan
+- namun berbeda dengan Continue, Continue digunakan untuk menghentikan perulangan saat ini,
+lalu melanjutkan ke perulangan selanjutnya

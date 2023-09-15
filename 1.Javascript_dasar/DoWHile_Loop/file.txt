@@ -1,0 +1,6 @@
+Do While loop
+- adalah perulangan yang mirip dengan while
+- perbedaanya hanya pada pengecekan kondisi
+- pengecekan kondisi di while loop dilakukan diawal sebelum perulangan dilakukan, sedangkan di do while loop dilakukan setelah perulangan dilakukan
+- oleh karena itu dalam do while loop minimal pasti sekali perulangan dilakukan walaupun kondisi
+tidak bernilai true

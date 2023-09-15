@@ -1,0 +1,3 @@
+while loop
+- while loop adalah versi perulangan yang lebih sederhana dibanding for loop
+- di while loop, hanya terdapat kondisi perulangan, tanpa ada init statement dan post statement

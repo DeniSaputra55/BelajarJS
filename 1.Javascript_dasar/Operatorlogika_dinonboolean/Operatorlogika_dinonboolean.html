@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operatorlogika_dinonboolean</title>
+</head>
+<body>
+    <script>
+        //Operator OR (||)
+        console.info("Hello" || "");
+        console.info("" || []);
+        console.info("0" || "NOL");
+        console.info(0 || "NOL");
+        console.info(null || "NULL");
+        console.info(undefined || "UNDEFINED");
+        console.info(0 || false);
+
+        const person = {
+            firstName: "Denis",
+            lastName: "Saputra"
+        };
+        const name = person.firstName || person.lastName;
+        console.info(name) //output denis
+
+        //operator AND (&&)
+        console.info("Hello" && '');
+        console.info("" && []);
+        console.info("0" && "NOL");
+        console.info(0 && "NOL");
+        console.info(null && "NULL");
+        console.info(undefined && "UNDEFINED");
+        console.info(0 && false);
+    </script>
+</body>
+</html>

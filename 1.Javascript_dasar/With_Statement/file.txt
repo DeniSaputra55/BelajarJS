@@ -1,0 +1,10 @@
+with statement
+- with statement merupakan fitur yang digunakan untuk menurunkan sebuah scope data
+- dengan menggunakan with stat, kita bisa mengakses property dalam sebuah data tanpa
+ harus menyebut datanya.
+
+ with statement tidak direkomendasikan
+ - walaupun fitur with statement ini sangat menarik
+ - namun kebanyakan orang tidak merekomendasikan penggunaan with statement
+ - hal ini dikarenakan with statement kadang membuat sebuah kode menjadi ambigu
+ 

@@ -1,0 +1,5 @@
+function parameter
+- kita bisa mengirim informasi ke function yang ingin kita pang.getMilliseconds()
+- untuk melakukan hal tersebut kita perlu menambahkan parameter atau argument difucntion yang sudah kita buat 
+- parameter ditempatkan di dalam kurung() di deklarasikan method 
+- parameter bisa lebih dari satu, jika lebih dari satu harus dipisah menggunakan tanda koma. 

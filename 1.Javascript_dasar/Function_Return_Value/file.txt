@@ -1,0 +1,13 @@
+function return value
+- secara default itu tidak mengahsilkan value apapun, namun jika kita ingin kita bisa
+membuat sebuah function mengembalikan value
+- agar function bisa menghasilkan value kita bisa menggunakan kata kunci return di dalam function nya
+- dan di dalam block function untuk menghasilkan nilai tersebut kita harus menggunakan kata 
+kunci rerun lalu diikuti dengan data yang ingin kita hasilkan.
+- function hanya bisa mengembalikan satu data, jika kita ingin mengembalikan beberapa data 
+sekaligus kita bisa menggunakan array sebagai return value nya.
+
+Menghentikan eksekusi dengan return
+
+- saat kita menggunakan kata kunci return, maka kode setelah return tersebut tidak akan di ekseskusi
+- kita bisa menggunakan return untuk menghentikan eksekusi sebuah function 

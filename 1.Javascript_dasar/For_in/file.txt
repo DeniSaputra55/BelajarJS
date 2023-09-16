@@ -1,0 +1,4 @@
+For In
+- for in merupakan perulangan for yang digunakan untuk menginterasi seluruh data property di onject atau index di array
+- walaupun for in bisa digunakan untuk array, namun tidak direkomendasikan untuk array, karena biasanya kita jarang sekali butuh data index untuk array, kita bisa menggunakan untuk array, karena
+biasanya kita jarang sekali butuh data index untuk array, kita bisa menggunakan for of( yang dibahas setelah ini)

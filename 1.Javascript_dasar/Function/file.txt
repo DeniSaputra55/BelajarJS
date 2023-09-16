@@ -1,0 +1,8 @@
+function
+- adalah bloke kode program yang akan berjalan saat kita panggil
+- sebelumnya kita sudah menggunakan function writeln() untuk menampilkan tulisan di html
+- untuk membuat function kita bisa menggunakan kata kunci function lalu diikuti dengan nama function kurung() dan di akhiri dengan blok kurung {}
+- kita bisa memanggil function dengan menggunakan nama function lalu diikuti dengan kurung()
+- dibahasa pemrograman lain function juga disebut dengan method
+
+

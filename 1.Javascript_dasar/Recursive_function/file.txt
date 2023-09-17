@@ -1,0 +1,4 @@
+recursive function
+- recursive function adalah kemampuan function memanggil function dirinya sendiri
+- kadang memang ada banyak problem yang lebih mudah diselesikan menggunakan recursive function seperti 
+contohnya kasus factorial.

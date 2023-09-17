@@ -1,0 +1,5 @@
+Object Method
+pada tipe data object kita sudah membahas tentantng property di object 
+- karena sebenarnya function juga merupakan sala satu tipe data, jadi functio pun sebenarnya bisa ditambahkan sebagai property di object 
+- cara pembuatanya pun sama dengan  funtion sebagai value 
+- function di object kadang disebut juga sebagai objec Method

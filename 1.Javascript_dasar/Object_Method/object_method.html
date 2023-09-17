@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Method</title>
+</head>
+<body>
+    <script>
+        //kode membuat object dengan method
+        // const person = {
+        //     name: "denis",
+        //     sayHello: function (name) {
+        //         alert(`Hello ${name}`);
+        //     }
+        // };
+        // person.sayHello("Putra");
+        // menambah method ke object
+        const person1 = {
+            name: "Denis"
+        };
+        person1.sayHello = function(name){
+            alert(`Hello ${name}`);
+        };
+        person1.sayHello("Saputra");
+    </script>
+</body>
+</html>

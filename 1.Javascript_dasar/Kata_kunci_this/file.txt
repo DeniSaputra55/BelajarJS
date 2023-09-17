@@ -1,0 +1,8 @@
+kata kunci this
+- adalah refrensi ke object milik siapa
+- tiap lokasi kata kunci this bisa berbeda-beda refrensi pemiliknya 
+- dalam object method this merupakan refrensi ke object pemilik functionya
+- diglobal scope this merupakan refrensi ke global object (di browser biasanya window)
+- dalam function this merupakan refrensi ke global object (di browser biasanya window)
+- di function dengan strict mode (akan dibahas nanti) this adalah undefined
+- dalam event this merupakan refrensi ke element yang menerima event (dibahas di materi document object mode)

@@ -1,0 +1,3 @@
+function sebagai value
+- function tidka hanya bisa digunakan sebagai kode program yang dieksekusi tapi bisa juga sebagai value
+- artinya function bisa disimpan divariable , bisa juga dikirim melalui parameter ke function lainya.

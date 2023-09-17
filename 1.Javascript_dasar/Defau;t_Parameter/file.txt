@@ -1,0 +1,4 @@
+Default parameter
+- sekarang kita tahu bahwa parameter itu optional, artinya bisa tidak memberi value terhadap parameter
+- parameter bisa diberi default value , artinya jika ketika tidak mengirim data ke parameter
+atau kita mengirim data undefined, maka secara otomatis parameter akan diisi oleh default value

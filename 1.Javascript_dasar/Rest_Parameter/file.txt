@@ -1,0 +1,22 @@
+Rest parameter
+- fitur dimana bisa mengirim data sebanyak-banyak nya pada satu parameter
+dan secara otomatis akan dikonversi menjadi array
+- untuk membuat rest parameter ada ketentuanya
+- rest parameter hanya boleh ada satu di function tidak boleh lebih dari satu
+- rest parameter hanya boleh berada di posisi paling akhir tidak boleh didepan atau ditengah kecuali
+memamng cuma ada 1 parameter
+- dibahasa pemograman lain , ada juga yang bilang ini adalah variable argument
+
+spread syntax
+- kata kita terlanjur memiliki data berupa array
+- tapi untungnya kita juga bisa mengirim array ke rest parameter
+- kita bisa gunakan ...(titi tiga kali) diikuti dengan array nya ketika memanggil function
+- fitur ini dinamakan spread syntax
+
+argument object
+- sebelum ada fitur rest parameter, di javascript sudah ada fitur yang bernama arguments objec
+- ini adalah fitur dimana kita bisa mengambil semua parameter dalam bentuk array dengan 
+menggunakan object bernama arguments
+- arguments secara otomatis bisa digunakan di fucntion
+- namun perlu diingat bahawa untuk javascript saat ini , lebih baik disarankan menggunakan rest parameter
+dibanding argument objec

@@ -1,0 +1,6 @@
+Closure
+- adalah kombinasi function dan bundel refrensi ke data disekitarnya
+- oke agak membingungkan memang apalagi untuk yang baru pertama belajar 
+- kita sudah tahu bahwa local scope tidak bisa diakses diluar scope nya
+- dengan kemampuan closure kita bisa membuat sebuah function di local scope dan refrensi ke 
+data di sekitar local scope tersebut keluar scope nya

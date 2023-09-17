@@ -1,0 +1,5 @@
+function di dalam function
+- tidak ada batasan dimana kita bisa membuat function
+- termasuk jika kita ingin membuat function di dalam sebuah function kita bisa melalukannya
+- function yang terdapat di dalam kita sebut inner function 
+- inner function hanya bisa diakses di tempat kita membuat functionya tidak bisa diakses dari luar functionya.

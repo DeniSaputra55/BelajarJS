@@ -1,0 +1,7 @@
+Masalah Pada variable var
+- sebelumnya suda di jelaskan bahawa penggunaan var sudah tidak direkomendasikan lagi dan diganti dengan let
+- pertanyaan kenapa ?
+- alasan var tidak direkomendasikan digunakan lagi adalah, karena var tidak memiliki block scope, 
+artinya dia tidak mengikat ke local scope yang sebelumnya sudah kita bahasa.
+- karena masalah ini var bisa tidak reprediksi 
+- kita akan buat contoh pengguna var dan let .

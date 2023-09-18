@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masalah variable pada var</title>
+</head>
+<body>
+    <script>
+        //menggunakan let
+        let i = 20;
+        for (let i = 0; i < 10; i++) {
+            //local scope
+            console.info(`<p>Local : ${i}`);
+        }///global scope
+        console.info(`<p>GLobal : ${i}`);
+        //menggunakan var
+        var j= 20;
+            for(var j = 0; j < 10; j++){
+                console.info(`<p>Local : ${j}`);
+            }
+            console.info(`<p>Global : ${j}`)
+                //hasilnya 10 karna var j = 20 tidak terdeteksi hanya yang menampilkan local scope saja
+    </script>
+</body>
+</html>

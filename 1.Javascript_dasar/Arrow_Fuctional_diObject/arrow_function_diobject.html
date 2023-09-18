@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow function di object</title>
+</head>
+<body>
+    <script>
+        // arrow function di object method
+        const person = {
+            name: "denis",
+            sayHello: (name) => {
+                console.info(`Hello ${name}`)
+            }
+        };
+        person.sayHello("saputra");
+        //this di arrow function object
+        const person1 = {
+            name: " Deni",
+            sayHello: (name) => {
+                console.info(this); //window
+                console.info(`Hello ${name}, My Name is ${this.name}`);
+            }
+        };
+        person1.sayHello("Putra"); //Hello putra, my name is
+    </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Arrow function di object
+- sebelumnya kita sudah bahas tentang arrow function
+- arrow function juga bisa kita gunakan di sebagai object method
+- namun perlu di ketahui arrow function tidak bisa digunakan untuk mengakses arguments object, function generator kata kunci this dan kata kunci super(dibahas di materi javascript object oriented programming)
+- jadi pastikan gunakan arrow function hanya memang ketika kita tidak butuh fitur-fitur di atas.
+

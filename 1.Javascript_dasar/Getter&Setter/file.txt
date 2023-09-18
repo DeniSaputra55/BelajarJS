@@ -1,0 +1,5 @@
+Getter dan setter
+- adalah kemampuan membuat function yang berbeda untuk mengambil data
+(getter) dan mengubah data(setter) pada sebuah property di object .
+- dengan menggunakan getter dan setter kita bisa melakukan hal apapun dalam function sebelum 
+sebuah property diakses atau diubah misal menambah validasi dan lain-lain.

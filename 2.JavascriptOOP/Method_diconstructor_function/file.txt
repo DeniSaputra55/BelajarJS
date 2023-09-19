@@ -1,0 +1,4 @@
+Method di constrcutor function
+- sama seperti pada tipe data object biasanya kita juga bisa menambahkan method di dalam constrcutor function
+- jika kita tambahkan method di constrcutor function, secara otomatis object yang dibuat akan 
+memiliki method tersebut

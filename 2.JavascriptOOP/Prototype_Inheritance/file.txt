@@ -1,0 +1,6 @@
+Prototype inheritance
+- sekarang kita sudah tahu bahwa prototype selalu memiliki parent artinya dia adalah turunan, parent tertinggi adalah object prototype
+- pertanyaan bagaiamana jika kita ingin melakukan inheritance ke prototype lain?
+- hali ini juga bisa dilakukan namun agak sedikit trciky karena hal ini sebenarnya untuk javascript modern
+tidak direkomendasikan lagi praktek OOP menggunakan prototype karena di ES6 sudah
+dikenalkan kata kunci class yang akan nanti dibahas di chapter tersendiri.

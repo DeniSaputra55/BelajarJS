@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype</title>
+</head>
+<body>
+    <script>
+        function Person(firstName, lastName){
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.sayHello = function (name){
+                console.info(`Hello ${name}, my name is ${this.firstName}`)
+            }
+        }
+         //menambahkan property ke prototype
+         Person.prototype.sayBye = function(){
+            console.info("Good Bye");
+         }
+         Person.prototype.run = function(){
+            console.info(`${this.firstName} is running`);
+         }
+        //object instance
+        const eko = new Person("eko", "khenedy");
+        //menambah property ke instance object
+        //ini hanya untuk instance object eko
+        eko.sayBye = function (){
+            console.info("Good Bye")
+        }
+        const budi = new Person("budi", "nugraha");
+        
+       
+
+        console.info(eko);
+        console.info(budi);
+
+        eko.sayBye();
+        eko.run();
+
+    </script>
+</body>
+</html>

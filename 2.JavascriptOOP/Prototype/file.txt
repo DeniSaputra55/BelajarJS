@@ -1,0 +1,25 @@
+Prototype
+- javascript sebelumnya dikenal dengan pemrograraman berbasis Prototype
+- memang agak sedikit membingungkan dan tidak dipungkiri banyak sekali yang bingung dengan konsep Prototype
+di javascript
+- pada chapter ini kita akan bahas tentang konsep Prototype
+
+Prototype inheritance
+- saat kita membuat object dari constructor function, object tersebut disebut instance, semua property
+(baik itu value atau method) akan berada didalam instance object nya.
+- setiap kita membuat sebuah constructor function maka secara otomatis akan dibuatlam Prototype nya , misal ketika kita membuat constructor function person
+maka akan ada Person Prototype.
+- saat kita membuat sebuah object instance, secara otomatis object tersebut adalah turunan dari constructor.Prototype nya
+- untuk mengakses Prototype milih sebuah instance kita bisa menggunakan _proto_
+
+menambah property ke Prototype
+- property mirip object dimana kita bisa menambah property baik itu value ataupun method
+- saat kita menambah sebuah property ke Prototype secara otomatis semua object instance yang 
+turunan dari Prototype tersebut akan memiliki property tersebut.
+
+cara kerja Prototype inheritance
+- bagaiaman bisa property dikase dari object instance?
+- ketika kita mengakses property di object instance, pertama akan di cek apakah di object tersebut
+terdapat property tersebut atau tidak jika tidak maka akan di cek di __proto__(Prototype) nya jika
+masih tidak ada akan di cek lagi di __proto__(Prototype) yang lebih tinggi begitu seterusnya
+sampai berakhir di ibject Prototype.

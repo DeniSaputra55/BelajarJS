@@ -1,0 +1,6 @@
+constructor di class 
+- karena bentuk constructor function mirip dengan function jadi kita bisa menambah parameter pada 
+constructor function lantas bagaiamana dengan class?
+- di class juga kita bisa menambah constructor dimana dengan menggunakan constructor kita juga 
+bisa menambah parameter saat pertama kali membuat object nya
+- untuk membuat constructor di class kita bisa menggunakan kata kunci constructor.

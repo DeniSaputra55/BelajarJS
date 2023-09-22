@@ -1,0 +1,3 @@
+Property di class
+- sama seperti pada constructor function dalam class pun kita bisa menambahkan Property
+- karena hasil akhirnya adalah sebuah ibject jadi menambahkan Property di class bisa juga dilakukan di instance object nya 

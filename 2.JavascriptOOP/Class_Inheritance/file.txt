@@ -1,0 +1,5 @@
+class inheritance
+- sebelumnya kita usdah tahu bahwa prototype mendukung pewarisan, walaupun akan sedikit trciky cara pembuatanya.
+- untungnya diperbaiki di ES6 dengan fitur classnya .
+- sebuah class bisa melakukan pewarisan dari class lainnya dengan menggunakan kata kunci extends 
+- di javascript class inheritance sama seperti prototype inheritance hanya bisa memiliki satu parent class.

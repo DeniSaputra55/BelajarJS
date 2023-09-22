@@ -1,0 +1,6 @@
+Method di class
+- membuat Method di class sebenarnya bisa dilakukan dengan cara seperti menambahkan method 
+di constructor function
+- namun hal tersebut sebenarnya menambahkan method ke dalam instance object 
+- khusus untuk method sebaiknya kita menambahkan ke prototype bukan ke instance object
+- untuk ny di class ada cara mudah menambahkan method dan secaea otomatis di tambahkan ke prototype

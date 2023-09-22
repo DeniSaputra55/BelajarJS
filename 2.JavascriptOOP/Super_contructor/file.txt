@@ -1,0 +1,8 @@
+Super constrcutor
+- class inheritance sifatnya seperti prototype inheritance
+- bagaiamana dengan constrcutor inheritance ? sebenarnya constrcutor inheritance hanyalah melakukan eksekusi constrcutor lain dengan tujuan
+agar Property di constrcutor lain bisa ditambahkan ke instance object initial
+- dalam kasus ini jika ingin mencapai hasil yang sama, kita bisa menggunakan kata kunci super di dalam constrcutor.
+- kata kunci super digunakan untuk memanggil constrcutor super class
+- jika di child class kita membuat constrcutor maka kita wajib memanggil parent constrcutor, walaupun di parent tidak ada constrcutor.
+
